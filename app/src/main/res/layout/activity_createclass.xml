@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".createclass"
+    android:background="@color/background">
+
+    <LinearLayout
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+
+
+        <TextView
+            android:textColor="@color/textcolor"
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="Please Create a room code or enter the code of the room if you want to join" />
+
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:textColor="#F3564D"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*The room code should start with atleast three alphabets and followed by digits"></TextView>
+
+        <EditText
+            android:id="@+id/codeBox"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:paddingLeft="3dp"
+            android:background="@drawable/round_button2"
+            android:ems="10"
+
+            android:hint="Room Code"
+            android:inputType="textPersonName" />
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/buttoncolor"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp"
+            android:onClick="onButtonClick">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Create/Join Meet"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:backgroundTint="#34C759"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp"
+            android:onClick="share">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Share room code on Whatsapp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

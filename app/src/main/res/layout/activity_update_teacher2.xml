@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".department.update_teacher"
+    android:backgroundTint="@color/background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/update_teacher_image"
+            android:src="@drawable/teacher"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name of the teacher"
+            android:textSize="20sp"
+            android:textColor="@color/textcolor"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+
+            ></TextView>
+        <EditText
+            android:inputType="text"
+            android:id="@+id/updateteachername"
+            android:textColorHint="@color/textcolor"
+            android:hint="Enter name of the teacher..."
+            android:textColor="@color/textcolor"
+            android:paddingLeft="5dp"
+            android:background="@drawable/round_button2"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"></EditText>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email of the teacher"
+            android:textSize="20sp"
+            android:textColor="@color/textcolor"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+
+            ></TextView>
+        <EditText
+            android:inputType="textEmailAddress"
+            android:id="@+id/updateteachermail"
+            android:textColorHint="@color/textcolor"
+            android:hint="Enter emai of the teacher.."
+            android:textColor="@color/textcolor"
+            android:paddingLeft="5dp"
+            android:background="@drawable/round_button2"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"></EditText>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post of the teacher"
+            android:textSize="20sp"
+            android:textColor="@color/textcolor"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+
+            ></TextView>
+        <EditText
+            android:inputType="text"
+            android:id="@+id/updateteacherpost"
+            android:textColorHint="@color/textcolor"
+            android:hint="Enter post of the teacher..."
+            android:textColor="@color/textcolor"
+            android:paddingLeft="5dp"
+            android:background="@drawable/round_button2"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"></EditText>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/deleteteacher"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="70dp"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/buttoncolor"
+            app:cardCornerRadius="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete Teacher"
+                android:textSize="25sp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+
+                android:textStyle="bold"
+                android:textColor="@color/white"></TextView>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-300dp"
+            android:layout_marginLeft="150dp"
+            android:visibility="invisible"
+            ></ProgressBar>
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

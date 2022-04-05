@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "37699213199",
+    "project_id": "mbs-connects",
+    "storage_bucket": "mbs-connects.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37699213199:android:e45e5c22c5ee2e3172ddfa",
+        "android_client_info": {
+          "package_name": "com.example.mbsconnectadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37699213199-4qllonoels7c5mje2gofb1p8om6c56hb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mbsconnectadmin",
+            "certificate_hash": "825230f442bb447d9ac2c6e54995a82b818b6b7f"
+          }
+        },
+        {
+          "client_id": "37699213199-e62et3jdhpl9cnb3ia2hllnemut4niip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiJgZ_mwh_FghtOrwyroRY9KMFGyLZyEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37699213199-e62et3jdhpl9cnb3ia2hllnemut4niip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

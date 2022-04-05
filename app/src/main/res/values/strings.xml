@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MBS Connect Admin</string>
+    <string name="select">Select the event</string>
+    <string name="select2">Select Department</string>
+</resources>

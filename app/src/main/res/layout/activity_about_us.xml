@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_us"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="@color/background"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/utk"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Utkarsh Raj Mishra"
+                    android:textSize="25sp"
+                    android:textColor="@color/textcolor"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-7dp"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Developer"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="4dp"
+                    ></TextView>
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/shashank"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"></ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shashank Shekar Mishra"
+                    android:textSize="25sp"
+                    android:textColor="@color/textcolor"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-7dp"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tester"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="4dp"
+                    ></TextView>
+
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/sakshi4"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"></ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sakshi Srivastava"
+                    android:textSize="25sp"
+                    android:textColor="@color/textcolor"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-7dp"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tester"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="3dp"
+                    ></TextView>
+
+
+
+
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/raj"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"></ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Raj Shrinat"
+                    android:textSize="25sp"
+                    android:textColor="@color/textcolor"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-7dp"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UI Designer"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="3dp"
+                    ></TextView>
+
+
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/vaishnavi"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"></ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vaishnavi Jaiswal"
+                    android:textSize="25sp"
+                    android:textColor="@color/textcolor"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-7dp"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UI Designer"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="40dp"
+                    ></TextView>
+
+
+
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</ScrollView>

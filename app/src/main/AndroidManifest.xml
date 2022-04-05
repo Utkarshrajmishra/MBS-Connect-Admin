@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mbsconnectadmin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MBSConnectAdmin">
+        <activity
+            android:name=".about_us"
+            android:exported="false" />
+        <activity
+            android:name=".department.add_teachers"
+            android:exported="false" />
+        <activity
+            android:name=".department.add_department"
+            android:exported="false" />
+        <activity android:name=".department.update_teacher"
+            android:exported="false"/>
+        <activity
+            android:name=".upload_paper"
+            android:exported="false" />
+        <activity
+            android:name=".exam_timetable"
+            android:exported="false" />
+        <activity
+            android:name=".upload_timetable"
+            android:exported="false" />
+        <activity
+            android:name=".upload_Assigment"
+            android:exported="false" />
+        <activity
+            android:name=".youtube_stats"
+            android:exported="false" />
+        <activity
+            android:name=".createclass"
+            android:exported="false" />
+        <activity
+            android:name=".upload_labwork"
+            android:exported="false" />
+        <activity
+            android:name=".upload_marksheet"
+            android:exported="false" />
+        <activity
+            android:name=".upload_event"
+            android:exported="false" />
+        <activity
+            android:name=".upload_book"
+            android:exported="false" />
+        <activity
+            android:name=".upload_notice"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".user_info"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".menu_acitivirty"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
